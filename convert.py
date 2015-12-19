@@ -67,4 +67,5 @@ options = {
     'no-background': None,
 }
 
-pdfkit.from_file(htmlfiles, 'kingpin.pdf', options=options, cover='static/cover.html')
+# https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
+pdfkit.from_file(htmlfiles, 'kingpin_ru.pdf', options=options, cover='static/cover.html')
