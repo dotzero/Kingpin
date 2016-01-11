@@ -68,4 +68,4 @@ options = {
 }
 
 # https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
-# pdfkit.from_file(htmlfiles, 'kingpin_ru.pdf', options=options, cover='static/cover.html')
+pdfkit.from_file(htmlfiles, 'kingpin_ru.pdf', options=options, cover='static/cover.html')
