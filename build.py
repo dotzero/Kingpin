@@ -15,9 +15,9 @@ if not os.path.isdir(HTML_PATH):
     os.mkdir(HTML_PATH)
 
 """ Markdown to HTML """
-chapters = sorted([os.path.join(APP_PATH, f) for f in glob(CHAPTERS_PATH)])
+CHAPTERS = sorted([os.path.join(APP_PATH, f) for f in glob(CHAPTERS_PATH)])
 
-template = """<!DOCTYPE html>
+TEMPLATE = """<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="utf-8">
@@ -43,9 +43,9 @@ extension_configs = {
 
 md = Markdown(output_format="html5", extensions=['markdown.extensions.smarty'], extension_configs=extension_configs)
 
-for chapter in chapters:
+for chapter in CHAPTERS:
     html = md.reset().convert(open(chapter, 'r').read().decode('utf-8'))
-    outhtml = template % html
+    outhtml = TEMPLATE % html
 
     filename = os.path.splitext(os.path.basename(chapter))[0] + '.html'
     filepath = os.path.join(HTML_PATH, filename)
@@ -57,7 +57,7 @@ for chapter in chapters:
 htmlfiles = [os.path.join(HTML_PATH, f) for f in os.listdir(HTML_PATH) if f.endswith('.html')]
 
 options = {
-    'page-size': 'A5',
+    'page-size': 'B5', # A5
     'margin-top': '0.75in',
     'margin-right': '0.75in',
     'margin-bottom': '0.75in',
