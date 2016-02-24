@@ -20,7 +20,7 @@
 * [Глава 17. «Пицца и Пластик»](https://habrahabr.ru/post/270951)
 * [Глава 18. «Брифинг»](https://habrahabr.ru/post/272073)
 * [Глава 19. «Рынок Кардеров»](https://habrahabr.ru/post/272127)
-* Глава 20. «The Starlight Room»
+* [Глава 20. «The Starlight Room»](https://habrahabr.ru/post/277811)
 * [Глава 21. «Мастер Сплинтр»](https://habrahabr.ru/post/272573)
 * [Глава 22. «Враги»](https://habrahabr.ru/post/273519)
 * [Глава 23. «Рыба-Удильщик»](https://habrahabr.ru/post/273719)
