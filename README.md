@@ -30,7 +30,7 @@
 * Глава 27. «Web War One»
 * [Глава 28. «Суд кардеров»](https://habrahabr.ru/post/274053)
 * [Глава 29. «One Plat and Six Classics»](https://habrahabr.ru/post/274173)
-* Глава 30. «Maksik»
+* [Глава 30. «Максик»](https://habrahabr.ru/post/277939)
 * Глава 31. «The Trial»
 * Глава 32. «The Mall»
 * [Глава 33. «Стратегия выхода»](https://habrahabr.ru/sandbox/97227)
