@@ -31,8 +31,8 @@
 * [Глава 28. «Суд кардеров»](https://habrahabr.ru/post/274053)
 * [Глава 29. «One Plat and Six Classics»](https://habrahabr.ru/post/274173)
 * [Глава 30. «Максик»](https://habrahabr.ru/post/277939)
-* Глава 31. «The Trial»
-* Глава 32. «The Mall»
+* [Глава 31. «Суд»](https://habrahabr.ru/post/279931)
+* [Глава 32. «Торговый центр»](https://habrahabr.ru/post/280097)
 * [Глава 33. «Стратегия выхода»](https://habrahabr.ru/sandbox/97227)
 * [Глава 34. «DarkMarket»](https://habrahabr.ru/post/263293)
 * Глава 35. «Sentencing»
