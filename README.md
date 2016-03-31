@@ -33,7 +33,7 @@
 * [Глава 30. «Максик»](https://habrahabr.ru/post/277939)
 * [Глава 31. «Суд»](https://habrahabr.ru/post/279931)
 * [Глава 32. «Торговый центр»](https://habrahabr.ru/post/280097)
-* [Глава 33. «Стратегия выхода»](https://habrahabr.ru/sandbox/97227)
+* [Глава 33. «Стратегия выхода»](https://habrahabr.ru/post/280556)
 * [Глава 34. «DarkMarket»](https://habrahabr.ru/post/263293)
 * Глава 35. «Sentencing»
 * Глава 36. «Aftermath»
