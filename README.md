@@ -36,5 +36,5 @@
 * [Глава 33. «Стратегия выхода»](https://habrahabr.ru/post/280556)
 * [Глава 34. «DarkMarket»](https://habrahabr.ru/post/263293)
 * [Глава 35. «Приговор»](https://habrahabr.ru/post/280564)
-* Глава 36. «Aftermath»
+* [Глава 36. «Последствия»](https://habrahabr.ru/post/280758)
 * Эпилог
