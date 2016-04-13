@@ -29,7 +29,7 @@
 * [Глава 26. «Что в Вашем бумажнике?»](https://habrahabr.ru/post/273943)
 * Глава 27. «Web War One»
 * [Глава 28. «Суд кардеров»](https://habrahabr.ru/post/274053)
-* [Глава 29. «One Plat and Six Classics»](https://habrahabr.ru/post/274173)
+* [Глава 29. «Одна Платиновая и шесть Классических»](https://habrahabr.ru/post/274173)
 * [Глава 30. «Максик»](https://habrahabr.ru/post/277939)
 * [Глава 31. «Суд»](https://habrahabr.ru/post/279931)
 * [Глава 32. «Торговый центр»](https://habrahabr.ru/post/280097)
