@@ -27,7 +27,7 @@
 * [Глава 24. «Обличение»](https://habrahabr.ru/post/273725)
 * [Глава 25. «Захват территории»](https://habrahabr.ru/post/273357)
 * [Глава 26. «Что в Вашем бумажнике?»](https://habrahabr.ru/post/273943)
-* Глава 27. «Web War One»
+* [Глава 27. «Первая сетевая война»](https://habrahabr.ru/post/281763)
 * [Глава 28. «Суд кардеров»](https://habrahabr.ru/post/274053)
 * [Глава 29. «Одна Платиновая и шесть Классических»](https://habrahabr.ru/post/274173)
 * [Глава 30. «Максик»](https://habrahabr.ru/post/277939)
