@@ -1,5 +1,13 @@
 # Kingpin
 
+## Генерация электронной книги в формате PDF
+
+1. Установить [wkhtmltopdf](https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf)
+2. Установить зависимости `pip install -r requirements.txt`
+3. Собрать PDF `python build.py`
+
+## Оригинальные главы на сайте Хабрахабр
+
 * [Пролог](https://habrahabr.ru/post/261491)
 * [Глава 1. «Ключ»](https://habrahabr.ru/post/264227)
 * [Глава 2. «Смертельное оружие»](https://habrahabr.ru/post/266577)
