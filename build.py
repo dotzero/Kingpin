@@ -10,6 +10,7 @@ from markdown import Markdown
 APP_PATH = os.path.dirname(os.path.realpath(__file__))
 CHAPTERS_PATH = os.path.join(APP_PATH, 'chapters/*.md')
 HTML_PATH = os.path.join(APP_PATH, 'html')
+PDF_FILENAME = 'Kingpin.pdf'
 
 if not os.path.isdir(HTML_PATH):
     os.mkdir(HTML_PATH)
@@ -68,4 +69,5 @@ options = {
 }
 
 # https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
-pdfkit.from_file(htmlfiles, 'kingpin_ru.pdf', options=options, cover='static/cover.html')
+pdfkit.from_file(htmlfiles, PDF_FILENAME, options=options, cover='static/cover.html')
+print 'PDF file %s generated.' % PDF_FILENAME
