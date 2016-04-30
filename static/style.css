@@ -7,7 +7,7 @@ html, button, input, select, textarea {
 
 html, body, button, input, select, textarea {
     color: #57534A;
-    font-family: "Fira Sans","Myriad Pro","Myriad",sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     font-weight: 300;
 }
@@ -46,6 +46,7 @@ body {
 h1, h2, h3, dt {
     color: #423F37;
     font-weight: 500;
+    font-family: "Fira Sans","Myriad Pro","Myriad",sans-serif;
 }
 
 h1 {
