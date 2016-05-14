@@ -8,7 +8,7 @@ from markdown import Markdown
 
 """ Paths """
 APP_PATH = os.path.dirname(os.path.realpath(__file__))
-CHAPTERS_PATH = os.path.join(APP_PATH, 'chapters/*.md')
+CHAPTERS_PATH = os.path.join(APP_PATH, 'markdown/*.md')
 HTML_PATH = os.path.join(APP_PATH, 'html')
 PDF_FILENAME = 'Kingpin.pdf'
 
