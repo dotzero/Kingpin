@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:language>ru</dc:language>
+    <dc:identifier id="BookId">urn:uuid:24389356-A1BB-445E-B79B-4560BAB1D62F</dc:identifier>
+    <meta property="identifier-type" refines="#BookId">nil</meta>
+    <dc:title id="title1">Kingpin</dc:title>
+    <meta property="title-type" refines="#title1">main</meta>
+    <dc:creator id="creator1">Кевин Поулсен</dc:creator>
+    <meta property="role" refines="#creator1">aut</meta>
+    <meta name="cover" content="item_cover"/>
+  </metadata>
+  <manifest>
+    <item id="item_cover" href="cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="item_epub" href="epub.css" media-type="text/css"/>
+    <item id="item_ch_0" href="00.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_1" href="01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_2" href="02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_3" href="03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_4" href="04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_5" href="05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_6" href="06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_7" href="07.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_8" href="08.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_9" href="09.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_10" href="10.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_11" href="11.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_12" href="12.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_13" href="13.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_14" href="14.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_15" href="15.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_16" href="16.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_17" href="17.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_18" href="18.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_19" href="19.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_20" href="20.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_21" href="21.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_22" href="22.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_23" href="23.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_24" href="24.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_25" href="25.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_26" href="26.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_27" href="27.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_28" href="28.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_29" href="29.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_30" href="30.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_31" href="31.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_32" href="32.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_33" href="33.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_34" href="34.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_35" href="35.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_36" href="36.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item_ch_37" href="37.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="item_ch_0"/>
+    <itemref idref="item_ch_1"/>
+    <itemref idref="item_ch_2"/>
+    <itemref idref="item_ch_3"/>
+    <itemref idref="item_ch_4"/>
+    <itemref idref="item_ch_5"/>
+    <itemref idref="item_ch_6"/>
+    <itemref idref="item_ch_7"/>
+    <itemref idref="item_ch_8"/>
+    <itemref idref="item_ch_9"/>
+    <itemref idref="item_ch_10"/>
+    <itemref idref="item_ch_11"/>
+    <itemref idref="item_ch_12"/>
+    <itemref idref="item_ch_13"/>
+    <itemref idref="item_ch_14"/>
+    <itemref idref="item_ch_15"/>
+    <itemref idref="item_ch_16"/>
+    <itemref idref="item_ch_17"/>
+    <itemref idref="item_ch_18"/>
+    <itemref idref="item_ch_19"/>
+    <itemref idref="item_ch_20"/>
+    <itemref idref="item_ch_21"/>
+    <itemref idref="item_ch_22"/>
+    <itemref idref="item_ch_23"/>
+    <itemref idref="item_ch_24"/>
+    <itemref idref="item_ch_25"/>
+    <itemref idref="item_ch_26"/>
+    <itemref idref="item_ch_27"/>
+    <itemref idref="item_ch_28"/>
+    <itemref idref="item_ch_29"/>
+    <itemref idref="item_ch_30"/>
+    <itemref idref="item_ch_31"/>
+    <itemref idref="item_ch_32"/>
+    <itemref idref="item_ch_33"/>
+    <itemref idref="item_ch_34"/>
+    <itemref idref="item_ch_35"/>
+    <itemref idref="item_ch_36"/>
+    <itemref idref="item_ch_37"/>
+  </spine>
+</package>

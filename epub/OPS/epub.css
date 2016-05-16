@@ -1,0 +1,120 @@
+body.cover {
+    margin: 0px;
+    padding: 0px;
+    oeb-column-number: 1;
+}
+
+body {
+    margin-right: 8pt;
+
+}
+
+a {
+    vertical-align: super;
+    line-height: 0.1;
+    font-size: 0.7em;
+}
+
+p {
+    margin: 0 0 0.5em 0;
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+code {
+    font-family: monospace, serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote p {
+    text-indent: 0;
+}
+
+h1 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 1em 0px 0.5em 0px;
+}
+
+h2 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1em 0px 0.5em 1.5625em;
+}
+
+h3 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 1em 0px 0.5em 1.923em;
+}
+
+h4 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 1em 0px 0.5em 2.083em;
+}
+
+h5 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 1em 0px 0.5em 2.272em;
+}
+
+h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    font-weight: bold;
+    margin: 1em 0px 0.5em 2.5em;
+}
+
+ol > li:before {
+    color: #423F37;
+    content: counter(ol, decimal) ".";
+    counter-increment: ol;
+    font-weight: 700;
+    margin-right: 0.333em;
+    position: absolute;
+    right: 100%;
+}
+
+ul > li:before {
+    content: "—";
+    margin-right: 0.333em;
+    position: absolute;
+    right: 100%;
+}
+
+ol, ul, dl {
+    margin-left: 2rem;
+    padding: 0;
+}
+ol {
+    counter-reset: ol;
+}
+li + li, dd + dt {
+    margin-top: 0.5em;
+}
+
+ul > li {
+    position: relative;
+}
+
+ol > li {
+    position: relative;
+}
+li {
+    list-style: none outside none;
+}
