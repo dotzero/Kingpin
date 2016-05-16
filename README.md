@@ -1,10 +1,20 @@
 # Kingpin
 
+## Генерация электронной книги в формате EPUB
+
+1. Установить зависимости `pip install -r requirements.txt`
+2. Собрать PDF `python build_epub.py`
+
 ## Генерация электронной книги в формате PDF
 
 1. Установить [wkhtmltopdf](https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf)
 2. Установить зависимости `pip install -r requirements.txt`
-3. Собрать PDF `python build.py`
+3. Собрать PDF `python build_pdf.py`
+
+## Ссылки на книги
+
+* [Kingpin.epub](https://github.com/dotzero/Kingpin/raw/master/Kingpin.epub)
+* [Kingpin.pdf](https://github.com/dotzero/Kingpin/raw/master/Kingpin.pdf)
 
 ## Оригинальные главы на сайте Хабрахабр
 
