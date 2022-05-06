@@ -10,9 +10,14 @@ from markdown import Markdown
 APP_PATH = os.path.dirname(os.path.realpath(__file__))
 MARKDOWN_PATH = os.path.join(APP_PATH, 'markdown/*.md')
 EPUB_PATH = os.path.join(APP_PATH, 'epub/OPS')
-CHAPTERS = sorted([os.path.join(APP_PATH, f) for f in glob(MARKDOWN_PATH)])
+EPUB_FILENAME = 'Kingpin.epub'
+
+if not os.path.isdir(EPUB_PATH):
+    os.mkdir(EPUB_PATH)
 
 """ Markdown to XHTML """
+CHAPTERS = sorted([os.path.join(APP_PATH, f) for f in glob(MARKDOWN_PATH)])
+
 TEMPLATE = """<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -39,14 +44,14 @@ md = Markdown(
     })
 
 for chapter in CHAPTERS:
-    bodyhtml = md.reset().convert(open(chapter, 'r').read().decode('utf-8'))
+    bodyhtml = md.reset().convert(open(chapter, 'r').read())
     xhtml = TEMPLATE % bodyhtml
 
     filename = os.path.splitext(os.path.basename(chapter))[0] + '.xhtml'
     filepath = os.path.join(EPUB_PATH, filename)
 
     with open(filepath, 'w') as f:
-        f.write(xhtml.encode('utf-8'))
+        f.write(xhtml)
 
 
 """ XHTML to EPUB """
@@ -58,7 +63,7 @@ def zipdir(path, ziph):
                 fullpath = os.path.join(root, file)
                 ziph.write(fullpath, fullpath.replace(path, ''))
 
-zipf = zipfile.ZipFile(os.path.join(APP_PATH, 'Kingpin.epub'), 'w', zipfile.ZIP_DEFLATED)
-zipdir(os.path.join(APP_PATH, 'epub'), zipf)
-zipf.close()
-print 'PDF file Kingpin.epub generated.'
+with zipfile.ZipFile(os.path.join(APP_PATH, EPUB_FILENAME), 'w', zipfile.ZIP_DEFLATED) as zipf:
+    zipdir(os.path.join(APP_PATH, 'epub'), zipf)
+
+print('PDF file {} was generated.'.format(EPUB_FILENAME))

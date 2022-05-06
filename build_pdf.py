@@ -45,19 +45,20 @@ extension_configs = {
 md = Markdown(output_format="html5", extensions=['markdown.extensions.smarty'], extension_configs=extension_configs)
 
 for chapter in CHAPTERS:
-    html = md.reset().convert(open(chapter, 'r').read().decode('utf-8'))
+    html = md.reset().convert(open(chapter, 'r').read())
     outhtml = TEMPLATE % html
 
     filename = os.path.splitext(os.path.basename(chapter))[0] + '.html'
     filepath = os.path.join(HTML_PATH, filename)
 
     with open(filepath, 'w') as f:
-        f.write(outhtml.encode('utf-8'))
+        f.write(outhtml)
 
 """ HTML to PDF """
 htmlfiles = [os.path.join(HTML_PATH, f) for f in os.listdir(HTML_PATH) if f.endswith('.html')]
 
 options = {
+    'enable-local-file-access': None,
     'page-size': 'B5', # A5
     'margin-top': '0.75in',
     'margin-right': '0.75in',
@@ -69,5 +70,6 @@ options = {
 }
 
 # https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
-pdfkit.from_file(htmlfiles, PDF_FILENAME, options=options, cover='static/cover.html')
-print 'PDF file %s generated.' % PDF_FILENAME
+pdfkit.from_file(htmlfiles, PDF_FILENAME, options=options, cover='static/cover.html', verbose=True)
+
+print('PDF file {} was generated.'.format(PDF_FILENAME))
