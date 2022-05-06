@@ -7,7 +7,7 @@
 * [Kingpin.epub](https://github.com/dotzero/Kingpin/raw/master/Kingpin.epub)
 * [Kingpin.pdf](https://github.com/dotzero/Kingpin/raw/master/Kingpin.pdf)
 
-## Сборка электронной книги в формате PDF + EPUB внутри Docker контейнера
+## Изготовление книги в форматах PDF и ePub
 
 ```
 make all
